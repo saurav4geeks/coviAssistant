@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets-login/bg-home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+.login {
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: rgba(98, 190, 183, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 3.6em;
+}
+label {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+input:focus,
+input:hover {
+  outline: 2px solid #13bfb1;
+}
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#log {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+  font-size: 1.1rem;
+}
+#log {
+  color: white;
+  background: #13bfb1;
+  border: none;
+}
+#log:hover,
+#log:focus {
+  color: white;
+  background: rgba(19, 191, 177, 0.7);
+  border: none;
+}
+span {
+  color: white;
+  font-size: 17px;
+}
+a {
+  float: right;
+  background-color: grey;
+}
